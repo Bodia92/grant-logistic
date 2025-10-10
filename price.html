@@ -1,0 +1,901 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/InterBlackItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Price Page</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1760082219879"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1760082219879">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header" data-fls-header-scroll="" data-fls-header-scroll-show="">
+				<div class="header__container">
+					<a href="/grant-logistic" class="header__logo">
+						<img src="./assets/img/logo.svg" alt="grand logistic logo">
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__nav">
+							<ul class="menu-list" data-menu-spollers="992,max" data-menu-speed="400" data-menu-one="">
+								<li>
+									<a class="js-has-sub" href="listing.html">Послуги</a>
+									<ul class="sub-list">
+										<li>
+											<a href="service.html">Складська логістика</a>
+										</li>
+										<li>
+											<a href="service.html">Транспортна логістика</a>
+										</li>
+										<li>
+											<a href="service.html">Логістика холодового ланцюга</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-has-sub" href="#">Логістичні склади</a>
+									<ul class="sub-list">
+										<li>
+											<a href="#">Логістичні склади 1</a>
+										</li>
+										<li>
+											<a href="#">Логістичні склади 2</a>
+										</li>
+										<li>
+											<a href="#">Логістичні склади 3</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-has-sub" href="#">Галузі</a>
+									<ul class="sub-list">
+										<li>
+											<a href="#">FMCG</a>
+										</li>
+										<li>
+											<a href="#">Агросектор</a>
+										</li>
+										<li>
+											<a href="#">Промисловість</a>
+										</li>
+										<li>
+											<a href="#">фулфілмент</a>
+										</li>
+										<li>
+											<a href="#">Міжнародне експедируваня</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="price.html">Ціни</a>
+								</li>
+								<li>
+									<a href="about-us.html">Про нас</a>
+								</li>
+								<li>
+									<a href="contacts.html">Контакти</a>
+								</li>
+								<li>
+									<a href="blog.html">Новини</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="menu__phone phone">
+							<div class="phone__body">
+								<a href="tel:+380677186144" class="phone__main --icon-phone">+38 067-718-61-44</a>
+								<div class="phone__dropdown">
+									<ul>
+										<li>
+											<a href="tel:+380504561453">+38 050-456-14-53</a>
+										</li>
+										<li>
+											<a href="tel:+380677186144">+38 067-718-61-44</a>
+										</li>
+										<li>
+											<a href="tel:+380675671854">+38 067-567-18-54</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+						<span></span>
+					</button>
+					<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Price"}'></include> -->
+				</div>
+			</header>
+			<main class="page page--price">
+				<section class="section banner">
+					<div class="banner__container">
+						<div class="banner__img">
+							<picture>
+								<img src="./assets/img/price.jpg" alt="banner track">
+							</picture>
+						</div>
+						<div class="breadcrumbs">
+							<div class="breadcrumbs__nav">
+								<a class="breadcrumbs__link breadcrumbs__link--main" href="/grant-logistic">GRAND LOGISTIC</a>
+								<div class="breadcrumbs__link breadcrumbs__link--last">Ціни та тарифи</div>
+							</div>
+						</div>
+						<div class="banner__content">
+							<h1 class="banner__title page-title">Тарифи на перевезення</h1>
+							<div class="banner__row">
+								<div class="banner__col">
+									<div class="banner__text">
+										<p>
+											Ми допомагаємо розвивати бізнес, забезпечуючи швидку обробку замовлень і контроль якості
+                                в умовах високої конкуренції
+										</p>
+									</div>
+								</div>
+								<div class="banner__col"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section price-form">
+					<div class="price-form__container">
+						<div class="price-form__grid block-grid">
+							<div class="block-grid__col">
+								<div class="block-grid__management management">
+									<h3 class="management__title">наш Менеджмент</h3>
+									<ul class="management__list">
+										<li class="management__item item-management">
+											<div class="item-management__img">
+												<img src="./assets/img/user01.jpg" alt="Владислав Кармановський">
+											</div>
+											<div class="item-management__content">
+												<h4 class="item-management__name">Владислав
+                                        Кармановський</h4>
+												<p class="item-management__info">logist1@grand-logistic.com</p>
+											</div>
+											<a href="mailto:logist1@grand-logistic.com" class="item-management__icon --icon-email" aria-label="icon email"></a>
+										</li>
+										<li class="management__item item-management">
+											<div class="item-management__img">
+												<img src="./assets/img/user02.jpg" alt="Владислав Кармановський">
+											</div>
+											<div class="item-management__content">
+												<h4 class="item-management__name">Єльнур
+                                        Касімов</h4>
+												<p class="item-management__info">elnur.kasimov@grand-logistic.com</p>
+											</div>
+											<a href="mailto:elnur.kasimov@grand-logistic.com" class="item-management__icon --icon-email" aria-label="icon email"></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="block-grid__col">
+								<div data-fls-tabs="" data-fls-tabs-animate="300" class="block-grid__form form-tabs">
+									<h2 class="form-tabs__title">
+										<span class="title-highlight">Розрахунок вартості</span>
+										логістики
+									</h2>
+									<div class="form-tabs__text">
+										<p>
+											Заповніть цю форму, надішліть нам та очікуйте дзвінок від нашого менеджеру, який надасть
+                                детальну оцінку вартості
+                                перевезення вашого вантажу
+										</p>
+									</div>
+									<div class="form-tabs__inner">
+										<nav data-fls-tabs-titles="" class="form-tabs__navigation">
+											<button type="button" class="form-tabs__tab --tab-active">Форма №1</button>
+											<button type="button" class="form-tabs__tab">Форма №2</button>
+											<button type="button" class="form-tabs__tab">Форма №3</button>
+										</nav>
+									</div>
+									<div data-fls-tabs-body="" class="form-tabs__content">
+										<div class="form-tabs__body">
+											<form action="#" class="form-tabs__form">
+												<div class="form-tabs__row">
+													<div class="form-tabs__group form-group">
+														<label for="loading-point">
+															Пункт завантаження
+															<span class="required">*</span>
+														</label>
+														<input id="loading-point" type="text" name="loading-point" placeholder="м. Дніпро" class="input" required>
+													</div>
+													<div class="form-tabs__group form-group">
+														<label for="unloading-point">
+															Пункт вивантаження
+															<span class="required">*</span>
+														</label>
+														<input id="unloading-point" type="text" name="unloading-point" placeholder="м. Івано-Франківськ" class="input" required>
+													</div>
+												</div>
+												<div class="form-tabs__group form-group">
+													<label for="cargo-name">
+														Назва вантажу
+														<span class="required">*</span>
+													</label>
+													<input id="cargo-name" type="text" name="cargo-name" placeholder="Обладнання для торгових площ" class="input" required>
+												</div>
+												<div class="form-tabs__flex">
+													<div class="form-tabs__group form-group">
+														<label for="weight">
+															Вага
+															<span class="sub">(КГ)</span>
+														</label>
+														<input id="weight" type="number" name="weight" placeholder="25" class="input" required>
+													</div>
+													<span class="form-tabs__or">Або</span>
+													<div class="form-tabs__group form-group">
+														<label for="pallets">Кількість палет</label>
+														<input id="pallets" type="number" name="pallets" placeholder="25" class="input" required>
+													</div>
+												</div>
+												<div class="form-tabs__row --mod-col">
+													<div class="form-tabs__group form-group">
+														<label for="name-company">
+															Ваше Ім’я / Назва компанії
+															<span class="required">*</span>
+														</label>
+														<input id="name-company" type="text" name="name-company" placeholder="Сільпо" class="input" required>
+													</div>
+													<div class="form-tabs__group form-group">
+														<label for="phone">
+															Номер телефону
+															<span class="required">*</span>
+														</label>
+														<input id="phone" type="number" name="form-phone" placeholder="+380 73 333 33 33" class="input" required>
+													</div>
+													<div class="form-tabs__group form-group">
+														<label for="phone">
+															Email
+															<span class="required">*</span>
+														</label>
+														<input id="phone" type="email" name="form-phone" placeholder="mail@gmail.com" class="input" required>
+													</div>
+												</div>
+												<button class="form-tabs__btn btn btn-default --icon-arrow-rotate" type="submit">Прорахувати вартість</button>
+											</form>
+										</div>
+										<div class="form-tabs__body">
+											<form action="#" class="form-tabs__form">
+												<div class="form-tabs__row">
+													<div class="form-tabs__group form-group">
+														<label for="loading-point">
+															Пункт завантаження
+															<span class="required">*</span>
+														</label>
+														<input id="loading-point" type="text" name="loading-point" placeholder="м. Дніпро" class="input" required>
+													</div>
+													<div class="form-tabs__group form-group">
+														<label for="unloading-point">
+															Пункт вивантаження
+															<span class="required">*</span>
+														</label>
+														<input id="unloading-point" type="text" name="unloading-point" placeholder="м. Івано-Франківськ" class="input" required>
+													</div>
+												</div>
+												<div class="form-tabs__group form-group">
+													<label for="cargo-name">
+														Назва вантажу
+														<span class="required">*</span>
+													</label>
+													<input id="cargo-name" type="text" name="cargo-name" placeholder="Обладнання для торгових площ" class="input" required>
+												</div>
+												<div class="form-tabs__flex">
+													<div class="form-tabs__group form-group">
+														<label for="weight">
+															Вага
+															<span class="sub">(КГ)</span>
+														</label>
+														<input id="weight" type="number" name="weight" placeholder="25" class="input" required>
+													</div>
+													<span class="form-tabs__or">Або</span>
+													<div class="form-tabs__group form-group">
+														<label for="pallets">Кількість палет</label>
+														<input id="pallets" type="number" name="pallets" placeholder="25" class="input" required>
+													</div>
+												</div>
+												<div class="form-tabs__row --mod-col">
+													<div class="form-tabs__group form-group">
+														<label for="name-company">
+															Ваше Ім’я / Назва компанії
+															<span class="required">*</span>
+														</label>
+														<input id="name-company" type="text" name="name-company" placeholder="Сільпо" class="input" required>
+													</div>
+													<div class="form-tabs__group form-group">
+														<label for="phone">
+															Номер телефону
+															<span class="required">*</span>
+														</label>
+														<input id="phone" type="number" name="form-phone" placeholder="+380 73 333 33 33" class="input" required>
+													</div>
+													<div class="form-tabs__group form-group">
+														<label for="phone">
+															Email
+															<span class="required">*</span>
+														</label>
+														<input id="phone" type="email" name="form-phone" placeholder="mail@gmail.com" class="input" required>
+													</div>
+												</div>
+												<button class="form-tabs__btn btn btn-default --icon-arrow-rotate" type="submit">Прорахувати вартість</button>
+											</form>
+										</div>
+										<div class="form-tabs__body">
+											<form action="#" class="form-tabs__form">
+												<div class="form-tabs__row">
+													<div class="form-tabs__group form-group">
+														<label for="loading-point">
+															Пункт завантаження
+															<span class="required">*</span>
+														</label>
+														<input id="loading-point" type="text" name="loading-point" placeholder="м. Дніпро" class="input" required>
+													</div>
+													<div class="form-tabs__group form-group">
+														<label for="unloading-point">
+															Пункт вивантаження
+															<span class="required">*</span>
+														</label>
+														<input id="unloading-point" type="text" name="unloading-point" placeholder="м. Івано-Франківськ" class="input" required>
+													</div>
+												</div>
+												<div class="form-tabs__group form-group">
+													<label for="cargo-name">
+														Назва вантажу
+														<span class="required">*</span>
+													</label>
+													<input id="cargo-name" type="text" name="cargo-name" placeholder="Обладнання для торгових площ" class="input" required>
+												</div>
+												<div class="form-tabs__flex">
+													<div class="form-tabs__group form-group">
+														<label for="weight">
+															Вага
+															<span class="sub">(КГ)</span>
+														</label>
+														<input id="weight" type="number" name="weight" placeholder="25" class="input" required>
+													</div>
+													<span class="form-tabs__or">Або</span>
+													<div class="form-tabs__group form-group">
+														<label for="pallets">Кількість палет</label>
+														<input id="pallets" type="number" name="pallets" placeholder="25" class="input" required>
+													</div>
+												</div>
+												<div class="form-tabs__row --mod-col">
+													<div class="form-tabs__group form-group">
+														<label for="name-company">
+															Ваше Ім’я / Назва компанії
+															<span class="required">*</span>
+														</label>
+														<input id="name-company" type="text" name="name-company" placeholder="Сільпо" class="input" required>
+													</div>
+													<div class="form-tabs__group form-group">
+														<label for="phone">
+															Номер телефону
+															<span class="required">*</span>
+														</label>
+														<input id="phone" type="number" name="form-phone" placeholder="+380 73 333 33 33" class="input" required>
+													</div>
+													<div class="form-tabs__group form-group">
+														<label for="phone">
+															Email
+															<span class="required">*</span>
+														</label>
+														<input id="phone" type="email" name="form-phone" placeholder="mail@gmail.com" class="input" required>
+													</div>
+												</div>
+												<button class="form-tabs__btn btn btn-default --icon-arrow-rotate" type="submit">Прорахувати вартість</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section storage">
+					<div class="storage__container">
+						<div class="storage__top section-top">
+							<div class="section-top__heading heading">How it works?</div>
+							<h2 class="section-top__title title">
+								<span class="title-highlight">Як</span>
+								прораховується ціна?
+							</h2>
+						</div>
+						<div class="storage__grid">
+							<div class="storage__decor">
+								<img src="./assets/img/decor-color.svg" alt="decor logo">
+							</div>
+							<div class="storage__content">
+								<p>
+									Lorem ipsum dolor sit amet consectetur. Ac eu sit sit enim. Tristique rutrum eget non mattis ut
+                        dictumst facilisis id
+                        parturient. Morbi nulla pulvinar vitae neque nulla pharetra et nunc. Neque erat amet nisl morbi
+                        ornare euismod
+                        pellentesque aliquam. Hac eleifend fermentum nisl enim tincidunt quam dolor. Urna fermentum
+                        tincidunt ac montes cursus
+                        tellus enim maecenas. Sit vulputate volutpat ornare convallis sed leo velit id. Donec risus
+                        mollis fermentum fermentum
+                        egestas pulvinar. Donec ac lacus et sagittis iaculis lacus sagittis velit neque. In a lacus sit
+                        euismod morbi eu tellus.
+                        Feugiat est proin aliquet rutrum purus. Varius ac tincidunt volutpat eget orci tempor
+                        consectetur nisl et. Nisi
+                        venenatis felis mauris non blandit. Aliquam donec aliquam cras bibendum porta tempus.
+								</p>
+								<p>
+									Feugiat diam mi pretium ullamcorper eu volutpat. Sagittis pellentesque et cras convallis congue
+                        in feugiat. Erat purus
+                        nulla vitae augue dolor. Nec nunc euismod pulvinar sapien odio maecenas aenean iaculis.
+                        Phasellus a est metus pulvinar
+                        vitae a curabitur. Euismod adipiscing quis scelerisque varius facilisi eget metus lacinia eget.
+                        Ut turpis et in in.
+                        Justo in at nibh urna mattis mattis. Rhoncus feugiat integer quis convallis mauris. Volutpat
+                        diam proin lectus porttitor
+                        eu sed egestas ultrices bibendum. Suscipit faucibus neque eu donec vulputate vitae a diam. Lacus
+                        ac et augue magna
+                        mattis dui nibh leo consequat. Adipiscing molestie id viverra vestibulum ullamcorper. Aliquet
+                        nisi cras consequat
+                        viverra euismod quam metus aliquam.
+								</p>
+								<p>
+									Eget tortor pellentesque imperdiet justo morbi odio. Hendrerit tincidunt turpis semper blandit
+                        sapien odio sed nulla in.
+                        Vitae placerat aenean malesuada viverra nisl viverra tellus id vitae. Ut feugiat sit etiam
+                        dapibus. Nibh sit morbi
+                        turpis mattis in maecenas lacus ac lacus. Eget sit nisi a sed fermentum. Aliquet nisl in
+                        consectetur massa est lorem
+                        volutpat et diam. Mi ipsum etiam feugiat sagittis lacus est at vitae. Fringilla cras venenatis
+                        quam nulla gravida
+                        vulputate. Faucibus quisque et volutpat porttitor lobortis nisl laoreet.
+								</p>
+								<p>
+									Pulvinar gravida egestas tincidunt adipiscing. Pharetra nibh amet interdum nunc morbi consectetur
+                        ipsum blandit.
+                        Imperdiet et egestas enim libero odio dignissim imperdiet lectus. Amet tincidunt scelerisque
+                        magnis viverra morbi
+                        molestie leo ut ut. Risus nam lobortis et fermentum suspendisse cursus phasellus. Aliquet
+                        viverra quam netus eget
+                        aliquam. Arcu id gravida aliquet lectus vel pharetra arcu. Et sollicitudin porttitor fringilla
+                        dui ipsum molestie arcu
+                        rhoncus mattis. Mattis donec felis pretium pharetra orci proin ut aliquet.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section faq">
+					<div class="faq__container">
+						<div class="faq__top section-top">
+							<div class="section-top__heading heading">F.A.q.</div>
+							<h2 class="section-top__title title">
+								<span class="title-highlight">Часті</span>
+								запитання
+							</h2>
+						</div>
+						<div class="faq__grid block-grid">
+							<div class="block-grid__col">
+								<div class="block-grid__sticker sticker">
+									<h3 class="sticker__title">
+										<span class="title-highlight">Не знайшли відповідь на ваше
+                                запитання?</span>
+										Напишіть нам
+									</h3>
+									<div class="sticker__cart">
+										<span class="sticker__decor">
+											<img src="./assets/img/decor.svg" alt="decor">
+										</span>
+										<span class="sticker__label">Замовити
+                                консультацію</span>
+										<button type="button" class="icon-body mod_yellow --icon-arrow-rotate" aria-label="open popup-consultation" data-fls-popup-link="popup-question"></button>
+									</div>
+								</div>
+							</div>
+							<div class="block-grid__col">
+								<div data-fls-spollers="" class="spollers">
+									<details class="spollers__item">
+										<summary class="spollers__title --icon-question">Часте запитання по розрахунку логістики</summary>
+										<div class="spollers__body">
+											Щойно Україна увійшла до світової економічної спільноти, на
+                                ринку країни значно зросли обсяги товарообігу, імпорту та
+                                експорту, в регіонах виникли перші розподільчі центри (РЦ) — перед ринком постало
+                                актуальне питання про передачу послуг
+                                комплексної логістики в управління професіоналів. Так в Україні з’явилися перші 3pl
+                                оператори.
+										</div>
+									</details>
+									<details class="spollers__item">
+										<summary class="spollers__title --icon-question">Часте запитання по розрахунку логістики</summary>
+										<div class="spollers__body">
+											Щойно Україна увійшла до світової економічної спільноти, на
+                                ринку країни значно зросли обсяги товарообігу, імпорту та
+                                експорту, в регіонах виникли перші розподільчі центри (РЦ) — перед ринком постало
+                                актуальне питання про передачу послуг
+                                комплексної логістики в управління професіоналів. Так в Україні з’явилися перші 3pl
+                                оператори.
+										</div>
+									</details>
+									<details class="spollers__item">
+										<summary class="spollers__title --icon-question">Часте запитання по розрахунку логістики</summary>
+										<div class="spollers__body">
+											Щойно Україна увійшла до світової економічної спільноти, на
+                                ринку країни значно зросли обсяги товарообігу, імпорту та
+                                експорту, в регіонах виникли перші розподільчі центри (РЦ) — перед ринком постало
+                                актуальне питання про передачу послуг
+                                комплексної логістики в управління професіоналів. Так в Україні з’явилися перші 3pl
+                                оператори.
+										</div>
+									</details>
+									<details class="spollers__item">
+										<summary class="spollers__title --icon-question">Часте запитання по розрахунку логістики</summary>
+										<div class="spollers__body">
+											Щойно Україна увійшла до світової економічної спільноти, на
+                                ринку країни значно зросли обсяги товарообігу, імпорту та
+                                експорту, в регіонах виникли перші розподільчі центри (РЦ) — перед ринком постало
+                                актуальне питання про передачу послуг
+                                комплексної логістики в управління професіоналів. Так в Україні з’явилися перші 3pl
+                                оператори.
+										</div>
+									</details>
+									<details class="spollers__item">
+										<summary class="spollers__title --icon-question">Часте запитання по розрахунку логістики</summary>
+										<div class="spollers__body">
+											Щойно Україна увійшла до світової економічної спільноти, на
+                                ринку країни значно зросли обсяги товарообігу, імпорту та
+                                експорту, в регіонах виникли перші розподільчі центри (РЦ) — перед ринком постало
+                                актуальне питання про передачу послуг
+                                комплексної логістики в управління професіоналів. Так в Україні з’явилися перші 3pl
+                                оператори.
+										</div>
+									</details>
+									<details class="spollers__item">
+										<summary class="spollers__title --icon-question">Часте запитання по розрахунку логістики</summary>
+										<div class="spollers__body">
+											Щойно Україна увійшла до світової економічної спільноти, на
+                                ринку країни значно зросли обсяги товарообігу, імпорту та
+                                експорту, в регіонах виникли перші розподільчі центри (РЦ) — перед ринком постало
+                                актуальне питання про передачу послуг
+                                комплексної логістики в управління професіоналів. Так в Україні з’явилися перші 3pl
+                                оператори.
+										</div>
+									</details>
+									<details class="spollers__item">
+										<summary class="spollers__title --icon-question">Часте запитання по розрахунку логістики</summary>
+										<div class="spollers__body">
+											Щойно Україна увійшла до світової економічної спільноти, на
+                                ринку країни значно зросли обсяги товарообігу, імпорту та
+                                експорту, в регіонах виникли перші розподільчі центри (РЦ) — перед ринком постало
+                                актуальне питання про передачу послуг
+                                комплексної логістики в управління професіоналів. Так в Україні з’явилися перші 3pl
+                                оператори.
+										</div>
+									</details>
+									<details class="spollers__item">
+										<summary class="spollers__title --icon-question">Часте запитання по розрахунку логістики</summary>
+										<div class="spollers__body">
+											Щойно Україна увійшла до світової економічної спільноти, на
+                                ринку країни значно зросли обсяги товарообігу, імпорту та
+                                експорту, в регіонах виникли перші розподільчі центри (РЦ) — перед ринком постало
+                                актуальне питання про передачу послуг
+                                комплексної логістики в управління професіоналів. Так в Україні з’явилися перші 3pl
+                                оператори.
+										</div>
+									</details>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__top">
+						<a href="/grant-logistic" class="footer__logo">
+							<img src="./assets/img/logo-white.svg" alt="logo">
+						</a>
+						<div class="footer__menu menu">
+							<nav class="menu__nav">
+								<ul data-menu-spollers="992,max" data-menu-speed="400" data-menu-one="">
+									<li>
+										<a class="js-has-sub" href="listing.html">Послуги</a>
+										<ul class="sub-list">
+											<li>
+												<a href="service.html">Складська логістика</a>
+											</li>
+											<li>
+												<a href="service.html">Транспортна логістика</a>
+											</li>
+											<li>
+												<a href="service.html">Логістика холодового ланцюга</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a class="js-has-sub" href="#">Логістичні склади</a>
+										<ul class="sub-list">
+											<li>
+												<a href="#">Логістичні склади 1</a>
+											</li>
+											<li>
+												<a href="#">Логістичні склади 2</a>
+											</li>
+											<li>
+												<a href="#">Логістичні склади 3</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a class="js-has-sub" href="#">Галузі</a>
+										<ul class="sub-list">
+											<li>
+												<a href="#">FMCG</a>
+											</li>
+											<li>
+												<a href="#">Агросектор</a>
+											</li>
+											<li>
+												<a href="#">Промисловість</a>
+											</li>
+											<li>
+												<a href="#">фулфілмент</a>
+											</li>
+											<li>
+												<a href="#">Міжнародне експедируваня</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="price.html">Ціни</a>
+									</li>
+									<li>
+										<a href="about-us.html">Про нас</a>
+									</li>
+									<li>
+										<a href="contacts.html">Контакти</a>
+									</li>
+									<li>
+										<a href="blog.html">Новини</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="footer__row">
+						<div class="footer__col">
+							<h2 class="footer__heading">3pl логістика</h2>
+							<ul class="footer__list">
+								<li>
+									<a href="#">комплектація моно/мікс палет</a>
+								</li>
+								<li>
+									<a href="#">відбірка замовлень</a>
+								</li>
+								<li>
+									<a href="#">стікерування, перепакування,
+							персоналізація товарів</a>
+								</li>
+								<li>
+									<a href="#">крос-докінг(cross-docking)</a>
+								</li>
+								<li>
+									<a href="#">фулфілмент для e-commerce</a>
+								</li>
+								<li>
+									<a href="#">інтеграція зберігання
+							з транспортними перевезеннями</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__col">
+							<h2 class="footer__heading">Транспортні послуги</h2>
+							<ul class="footer__list">
+								<li>
+									<a href="#">внутрішні та міжнародні перевезення</a>
+								</li>
+								<li>
+									<a href="#">відстеження вантажів у реальному часі</a>
+								</li>
+								<li>
+									<a href="#">консолідація вантажів</a>
+								</li>
+								<li>
+									<a href="#">митне оформлення</a>
+								</li>
+								<li>
+									<a href="#">страхування вантажів</a>
+								</li>
+								<li>
+									<a href="#">обробка повернень (reverse logistics)</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__col">
+							<h2 class="footer__heading">Контакти</h2>
+							<ul class="footer__contacts">
+								<li>
+									<a class="--icon-phone" href="tel:+380504561453">+38 050-456-14-53</a>
+								</li>
+								<li>
+									<a class="--icon-phone" href="tel:+380677186144">+38 067-718-61-44</a>
+								</li>
+								<li>
+									<a class="--icon-phone" href="tel:+380675671854">+38 067-567-18-54</a>
+								</li>
+								<li>
+									<a class="--icon-mail" href="mailto:info@grand-logistic.com">info@grand-logistic.com</a>
+								</li>
+							</ul>
+							<div class="footer__social social">
+								<a href="#" class="social__link --icon-telegram" aria-label="telegram"></a>
+								<a href="#" class="social__link --icon-instagram" aria-label="instagram"></a>
+								<a href="#" class="social__link --icon-facebook" aria-label="facebook"></a>
+							</div>
+							<button class="btn btn-default --icon-arrow-rotate" type="button" data-fls-popup-link="popup-question">Замовити дзвінок</button>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<div class="footer__copyright">Grand Logistic. 2025 рік.</div>
+						<a href="https://fnx.com.ua/ua" target="_blank" class="fenix">
+							Розробка
+							<br>
+							сайту:
+							<img src="./assets/img/fenix-logo.svg" alt="fenix logo">
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div data-fls-popup="popup-question" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close" aria-label="btn close popup"></button>
+					<div data-fls-popup-content="" class="popup__content">
+						<h3 class="popup__title">
+							<span class="title-highlight">є запитання?</span>
+							Напишіть нам
+						</h3>
+						<form action="#" class="popup__form">
+							<div class="popup__row">
+								<div class="popup__group form-group">
+									<label for="name">
+										Як вас звуть?
+										<span class="required">*</span>
+									</label>
+									<input id="name" type="text" name="form-name" placeholder="Як вас звуть?" class="input" required>
+								</div>
+								<div class="popup__group form-group">
+									<label for="phone">
+										Контактний номер телефону
+										<span class="required">*</span>
+									</label>
+									<input id="phone" type="number" name="form-phone" placeholder="+380 73 333 33 33" class="input" required>
+								</div>
+							</div>
+							<div class="popup__group form-group">
+								<label for="message">
+									Ваше запитання
+									<span class="required">*</span>
+								</label>
+								<textarea name="form-message" id="message" class="input" placeholder="Будь ласка, напишіть ваше запитання тут" required></textarea>
+							</div>
+							<button class="popup__btn btn btn-default --icon-arrow-rotate" type="submit">Надіслати
+						запитання</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-fls-popup="popup-consultation" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close" aria-label="btn close popup"></button>
+					<div data-fls-popup-content="" class="popup__content">
+						<h3 class="popup__title">
+							<span class="title-highlight">Запит</span>
+							на консультацію
+						</h3>
+						<div data-fls-tabs="" data-fls-tabs-animate="300" class="popup__tabs">
+							<div class="popup__inner">
+								<nav data-fls-tabs-titles="" class="popup__navigation">
+									<button type="button" class="popup__tab --tab-active">Форма №1</button>
+									<button type="button" class="popup__tab">Форма №2</button>
+									<button type="button" class="popup__tab">Форма №3</button>
+								</nav>
+							</div>
+							<div data-fls-tabs-body="" class="popup__content">
+								<div class="popup__body">
+									<form action="#" class="popup__form">
+										<div class="popup__row">
+											<div class="popup__group form-group">
+												<label for="name-1">
+													Як вас звуть?
+													<span class="required">*</span>
+												</label>
+												<input id="name-1" type="text" name="form-name" placeholder="Як вас звуть?" class="input" required>
+											</div>
+											<div class="popup__group form-group">
+												<label for="phone-1">
+													Контактний номер телефону
+													<span class="required">*</span>
+												</label>
+												<input id="phone-1" type="number" name="form-phone" placeholder="+380 73 333 33 33" class="input" required>
+											</div>
+										</div>
+										<div class="popup__group form-group">
+											<label for="message-1">
+												Ваше запитання
+												<span class="required">*</span>
+											</label>
+											<textarea name="form-message" id="message-1" class="input" placeholder="Будь ласка, напишіть ваше запитання тут" required></textarea>
+										</div>
+										<button class="popup__btn btn btn-default --icon-arrow-rotate" type="submit">Надіслати
+									запитання</button>
+									</form>
+								</div>
+								<div class="popup__body">
+									<form action="#" class="popup__form">
+										<div class="popup__row">
+											<div class="popup__group form-group">
+												<label for="name-2">
+													Як вас звуть?
+													<span class="required">*</span>
+												</label>
+												<input id="name-2" type="text" name="form-name" placeholder="Як вас звуть?" class="input" required>
+											</div>
+											<div class="popup__group form-group">
+												<label for="phone-2">
+													Контактний номер телефону
+													<span class="required">*</span>
+												</label>
+												<input id="phone-2" type="number" name="form-phone" placeholder="+380 73 333 33 33" class="input" required>
+											</div>
+										</div>
+										<div class="popup__group form-group">
+											<label for="message-2">
+												Ваше запитання
+												<span class="required">*</span>
+											</label>
+											<textarea name="form-message" id="message-2" class="input" placeholder="Будь ласка, напишіть ваше запитання тут" required></textarea>
+										</div>
+										<button class="popup__btn btn btn-default --icon-arrow-rotate" type="submit">Надіслати
+									запитання</button>
+									</form>
+								</div>
+								<div class="popup__body">
+									<form action="#" class="popup__form">
+										<div class="popup__row">
+											<div class="popup__group form-group">
+												<label for="name-3">
+													Як вас звуть?
+													<span class="required">*</span>
+												</label>
+												<input id="name-3" type="text" name="form-name" placeholder="Як вас звуть?" class="input" required>
+											</div>
+											<div class="popup__group form-group">
+												<label for="phone-3">
+													Контактний номер телефону
+													<span class="required">*</span>
+												</label>
+												<input id="phone-3" type="number" name="form-phone" placeholder="+380 73 333 33 33" class="input" required>
+											</div>
+										</div>
+										<div class="popup__group form-group">
+											<label for="message-3">
+												Ваше запитання
+												<span class="required">*</span>
+											</label>
+											<textarea name="form-message" id="message-3" class="input" placeholder="Будь ласка, напишіть ваше запитання тут" required></textarea>
+										</div>
+										<button class="popup__btn btn btn-default --icon-arrow-rotate" type="submit">Надіслати
+									запитання</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
