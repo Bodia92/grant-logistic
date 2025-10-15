@@ -10,7 +10,7 @@
 		<link rel="preload" href="./assets/fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="preload" href="./assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
-		<title>Service Page</title>
+		<title>Transport Page</title>
 		<script type="module" crossorigin="" src="./js/app.min.js?v=1760521123434"></script>
 		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1760521123434">
 	</head>
@@ -108,7 +108,7 @@
 					<button type="button" data-fls-menu="" class="menu__icon icon-menu">
 						<span></span>
 					</button>
-					<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Service"}'></include> -->
+					<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Transport"}'></include> -->
 				</div>
 			</header>
 			<main class="page page--service">
@@ -123,11 +123,11 @@
 							<div class="breadcrumbs__nav">
 								<a class="breadcrumbs__link breadcrumbs__link--main" href="/grant-logistic">GRAND LOGISTIC</a>
 								<a class="breadcrumbs__link" href="listing.html">Послуги grand logistic</a>
-								<div class="breadcrumbs__link breadcrumbs__link--last">Логістика холодового ланцюга</div>
+								<div class="breadcrumbs__link breadcrumbs__link--last">Транспортна логістика</div>
 							</div>
 						</div>
 						<div class="banner__content">
-							<h1 class="banner__title page-title">Логістика холодового ланцюга</h1>
+							<h1 class="banner__title page-title">Транспортна логістика</h1>
 							<div class="banner__row">
 								<div class="banner__col">
 									<div class="banner__text">
@@ -161,7 +161,7 @@
 						<div class="cold-logistics__top section-top">
 							<h2 class="section-top__title title">
 								<span class="title-highlight">Про послугу</span>
-								холодної логістики
+								транспортної логістики
 							</h2>
 						</div>
 						<div class="cold-logistics__grid">
@@ -171,8 +171,9 @@
 							</div>
 							<div class="cold-logistics__content">
 								<p>
-									<strong>Холодна логістика</strong>
-									— це певна область логістичних послуг, яка включає ланцюжок
+									<strong>Транспортна логістика</strong>
+									— це певна область логістичних послуг, яка включає
+                        ланцюжок
                         поставок з контролем температури. Тобто і
                         транспортування, і зберігання повинні здійснюватися з чітким контролем та моніторингом
                         температури товарів, що
@@ -253,7 +254,8 @@
 							</div>
 						</div>
 						<blockquote class="blockquote">
-							Як правило, холодна логістика потрібна для підприємств харчової, фармакологічної та хімічної галузей. Це
+							Як правило, транспортна логістика потрібна для підприємств харчової, фармакологічної та хімічної
+                галузей. Це
                 може бути як
                 виробники відповідної продукції, і імпортери чи експортери.
 						</blockquote>
@@ -344,24 +346,39 @@
 								наші склади?
 							</h2>
 						</div>
-						<div class="warehouses__select">
-							<select data-fls-select="" name="form[]" data-fls-select-modif="form">
-								<option value="1" selected>Локації у м.Дніпро</option>
-								<option value="2">Локації у м.Київ</option>
-								<option value="3">Локації у м.Львів</option>
-								<option value="4">Локації у м.Ужгород</option>
-							</select>
+						<div class="warehouses__box">
+							<div class="warehouses__select">
+								<label for="select-location">Виберіть локацію</label>
+								<select data-fls-select="" name="form[]" data-fls-select-modif="form" id="select-location">
+									<option value="1" selected>Локації у м.Дніпро</option>
+									<option value="2">Локації у м.Київ</option>
+									<option value="3">Локації у м.Львів</option>
+									<option value="4">Локації у м.Ужгород</option>
+								</select>
+							</div>
+							<div class="warehouses__select">
+								<label for="logistics-complex">Виберіть комплекс</label>
+								<select data-fls-select="" name="form[]" data-fls-select-modif="form" id="logistics-complex">
+									<option value="1" selected>ЛК “Березинський”</option>
+									<option value="2">ЛК “Передовий”</option>
+									<option value="3">ЛК “Терновий”</option>
+									<option value="4">ЛК “Терновий”</option>
+									<option value="4">ЛК “береговий”</option>
+								</select>
+							</div>
 						</div>
 						<div data-fls-tabs="" class="warehouses__tabs">
-							<div class="warehouses__tab-nav">
-								<nav data-fls-tabs-titles="" class="warehouses__navigation">
-									<button type="button" class="warehouses__tab --tab-active">ЛК “Березинський”</button>
-									<button type="button" class="warehouses__tab">ЛК “Передовий”</button>
-									<button type="button" class="warehouses__tab">ЛК “Терновий”</button>
-									<button type="button" class="warehouses__tab">ЛК “семеренківський”</button>
-									<button type="button" class="warehouses__tab">ЛК “береговий”</button>
-								</nav>
-							</div>
+							<!--
+<div class="warehouses__tab-nav">
+<nav data-fls-tabs-titles class="warehouses__navigation">
+<button type="button" class="warehouses__tab --tab-active">ЛК “Березинський”</button>
+<button type="button" class="warehouses__tab">ЛК “Передовий”</button>
+<button type="button" class="warehouses__tab">ЛК “Терновий”</button>
+<button type="button" class="warehouses__tab">ЛК “семеренківський”</button>
+<button type="button" class="warehouses__tab">ЛК “береговий”</button>
+</nav>
+</div>
+-->
 							<div data-fls-tabs-body="" class="warehouses__inner">
 								<div class="warehouses__body">
 									<div class="warehouses__grid">
@@ -405,6 +422,7 @@
 											<a class="btn btn-transparent --icon-arrow-rotate" href="#">Більше про склад</a>
 										</div>
 										<div data-fls-slider="" class="warehouses__slider swiper">
+											<a class="warehouses__slider-link" href="https://www.google.com/maps?q=м.+Дніпро,+вул.+Березинська,+80" target="_blank" rel="noopener">с.Дачне Одеська обл.</a>
 											<div class="warehouses__wrapper swiper-wrapper">
 												<div class="warehouses__slide swiper-slide">
 													<img src="./assets/img/warehouses.jpg" alt="warehouses">
@@ -423,18 +441,6 @@
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="warehouses__body">Вміст другого таба</div>
-								<div class="warehouses__body">Вміст третього таба</div>
-								<div class="warehouses__body">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, asperiores enim. Iure odio,
-                        fugit, et laudantium vitae ullam, corporis neque libero officia aliquam sed quibusdam possimus
-                        rem quam deserunt! Minus.
-								</div>
-								<div class="warehouses__body">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis laborum voluptas iusto fugiat
-                        quasi harum, at vel sit, corrupti qui quam omnis placeat eum id adipisci aliquam culpa eligendi
-                        perferendis.
 								</div>
 							</div>
 						</div>

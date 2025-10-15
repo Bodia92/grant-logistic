@@ -11,8 +11,8 @@
 		<link rel="preload" href="./assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1760082219879"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1760082219879">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1760521123434"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1760521123434">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -31,7 +31,7 @@
 											<a href="service.html">Складська логістика</a>
 										</li>
 										<li>
-											<a href="service.html">Транспортна логістика</a>
+											<a href="transport.html">Транспортна логістика</a>
 										</li>
 										<li>
 											<a href="service.html">Логістика холодового ланцюга</a>
@@ -172,13 +172,10 @@
 				</section>
 				<section class="section solutions">
 					<div class="solutions__container">
-						<div class="solutions__top section-top">
-							<div class="section-top__heading heading">SOLUTIONS</div>
-							<h2 class="section-top__title title">
-								<span class="title-highlight">Галузеві</span>
-								рішення
-							</h2>
-						</div>
+						<h2 class="solutions__title title">
+							<span class="title-highlight">Галузеві</span>
+							рішення
+						</h2>
 						<ul class="solutions__list">
 							<li class="solutions__item item-solution">
 								<a href="#" class="item-solution__link">
@@ -298,7 +295,6 @@
 							<img src="./assets/img/title-our-services.svg" alt="our-services">
 						</div>
 						<div class="section-top">
-							<div class="section-top__heading heading">What do we offer?</div>
 							<h2 class="section-top__title title">Послуги Grand Logistic</h2>
 						</div>
 						<ul class="services__list">
@@ -367,7 +363,7 @@
 										<div class="item-services__actions">
 											<button class="item-services__btn btn btn-default --icon-arrow-rotate" type="button" data-fls-popup-link="popup-consultation">Отримати
 									пропозицію</button>
-											<a href="service.html" class="item-services__btn btn btn-white --icon-arrow-rotate">Дізнатись
+											<a href="transport.html" class="item-services__btn btn btn-white --icon-arrow-rotate">Дізнатись
 									більше</a>
 										</div>
 									</div>
@@ -426,13 +422,10 @@
 				</section>
 				<section class="section clients">
 					<div class="clients__container">
-						<div class="clients__top section-top">
-							<div class="section-top__heading heading">Our clients</div>
-							<h2 class="section-top__title title">
-								<span class="title-highlight">Наші</span>
-								партнери
-							</h2>
-						</div>
+						<h2 class="clients__title title">
+							<span class="title-highlight">Наші</span>
+							партнери
+						</h2>
 						<ul class="clients__list">
 							<li class="clients__item">
 								<img src="./assets/img/clients01.png" alt="client logo">
@@ -467,7 +460,6 @@
 							<img src="./assets/img/title-grant-logistic.svg" alt="grant-logistic">
 						</div>
 						<div class="logistic__top section-top">
-							<div class="section-top__heading heading">About us</div>
 							<h2 class="section-top__title title">
 								Grand logistic
 								<br>
@@ -571,10 +563,7 @@
 				</section>
 				<section class="section news">
 					<div class="news__container">
-						<div class="news__top section-top">
-							<div class="section-top__heading heading">News</div>
-							<h2 class="section-top__title title">Новини та події</h2>
-						</div>
+						<h2 class="news__title title">Новини та події</h2>
 						<div data-fls-slider="" class="news__slider swiper">
 							<div class="news__wrapper swiper-wrapper">
 								<div class="news__slide swiper-slide">
@@ -684,7 +673,7 @@
 												<a href="service.html">Складська логістика</a>
 											</li>
 											<li>
-												<a href="service.html">Транспортна логістика</a>
+												<a href="transport.html">Транспортна логістика</a>
 											</li>
 											<li>
 												<a href="service.html">Логістика холодового ланцюга</a>
@@ -838,26 +827,26 @@
 						<form action="#" class="popup__form">
 							<div class="popup__row">
 								<div class="popup__group form-group">
-									<label for="name">
+									<label for="name-question">
 										Як вас звуть?
 										<span class="required">*</span>
 									</label>
-									<input id="name" type="text" name="form-name" placeholder="Як вас звуть?" class="input" required>
+									<input id="name-question" type="text" name="form-name-question" placeholder="Як вас звуть?" class="input" required>
 								</div>
 								<div class="popup__group form-group">
-									<label for="phone">
+									<label for="phone-question">
 										Контактний номер телефону
 										<span class="required">*</span>
 									</label>
-									<input id="phone" type="number" name="form-phone" placeholder="+380 73 333 33 33" class="input" required>
+									<input id="phone-question" type="number" name="form-phone-question" placeholder="+380 73 333 33 33" class="input" required>
 								</div>
 							</div>
 							<div class="popup__group form-group">
-								<label for="message">
+								<label for="message-question">
 									Ваше запитання
 									<span class="required">*</span>
 								</label>
-								<textarea name="form-message" id="message" class="input" placeholder="Будь ласка, напишіть ваше запитання тут" required></textarea>
+								<textarea name="form-message-question" id="message-question" class="input" placeholder="Будь ласка, напишіть ваше запитання тут" required></textarea>
 							</div>
 							<button class="popup__btn btn btn-default --icon-arrow-rotate" type="submit">Надіслати
 						запитання</button>
@@ -892,14 +881,14 @@
 													Як вас звуть?
 													<span class="required">*</span>
 												</label>
-												<input id="name-1" type="text" name="form-name" placeholder="Як вас звуть?" class="input" required>
+												<input id="name-1" type="text" name="form-name-consultation" placeholder="Як вас звуть?" class="input" required>
 											</div>
 											<div class="popup__group form-group">
 												<label for="phone-1">
 													Контактний номер телефону
 													<span class="required">*</span>
 												</label>
-												<input id="phone-1" type="number" name="form-phone" placeholder="+380 73 333 33 33" class="input" required>
+												<input id="phone-1" type="number" name="form-phone-consultation" placeholder="+380 73 333 33 33" class="input" required>
 											</div>
 										</div>
 										<div class="popup__group form-group">
@@ -907,7 +896,7 @@
 												Ваше запитання
 												<span class="required">*</span>
 											</label>
-											<textarea name="form-message" id="message-1" class="input" placeholder="Будь ласка, напишіть ваше запитання тут" required></textarea>
+											<textarea name="form-message-consultation" id="message-1" class="input" placeholder="Будь ласка, напишіть ваше запитання тут" required></textarea>
 										</div>
 										<button class="popup__btn btn btn-default --icon-arrow-rotate" type="submit">Надіслати
 									запитання</button>
